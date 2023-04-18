@@ -15,8 +15,14 @@ class Activity1v2 {
         do {
             System.out.print("Enter name: ");
             name = myScanner.nextLine().trim();
+
             System.out.print("Enter your crush name: ");
             crushName = myScanner.nextLine().trim();
+
+            if (name.isEmpty() || !crushName.isEmpty()) {
+                System.out.println("Please enter a valid name and crush name!");
+            }
+
         } while (name.isEmpty() || crushName.isEmpty());
 
         // Close scanner
