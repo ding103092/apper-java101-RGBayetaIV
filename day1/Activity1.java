@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-class FlamesHope {
+class Activity1 {
 
     public static void main(String[] args) {
         System.out.println("Welcome to FlamesHope!");
