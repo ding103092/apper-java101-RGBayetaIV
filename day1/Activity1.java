@@ -9,7 +9,7 @@ class Activity1 {
         Scanner myScanner = new Scanner(System.in);
 
         // Allow user to enter his/her name
-        System.out.println("What is your name: ");
+        System.out.print("What is your name: ");
         String name = myScanner.nextLine();
 
         // Check if name is not empty, otherwise display "Your name is required" and
@@ -20,7 +20,7 @@ class Activity1 {
         }
 
         // Allow user to enter his/her crush's name 
-        System.out.println("What's your crush's name: ");
+        System.out.print("What's your crush's name: ");
         String crushName = myScanner.nextLine();
 
         // Check if crushName is not empty, otherwise display "Your crush's name is required" and
