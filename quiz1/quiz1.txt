@@ -3,3 +3,4 @@
 3. JDK
 4. JSE
 5. Java Virtual Machine
+6. JVM. Because it acts as a bridge that provides layer of abstraction between Java and the OS
