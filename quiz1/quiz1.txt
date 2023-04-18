@@ -1,7 +1,7 @@
 1. Java Development Kit
 2. JVM
 3. JDK
-4. JSE
+4. JRE
 5. Java Virtual Machine
 6. JVM. Because it acts as a bridge that provides layer of abstraction between Java and the OS
 7. False, or not necessarily. As we want the code to be maintainable, it is general for the code to be more readable, than it is clever
