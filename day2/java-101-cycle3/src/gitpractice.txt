@@ -1,0 +1,2 @@
+Practicing git in IntelliJ. I find it hard to integrate it with
+cmd as there are folders that I have no control of such as .idea
