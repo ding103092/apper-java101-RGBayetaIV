@@ -26,7 +26,7 @@ public class PrimeNumber {
         // whole number greater than 1 that cannot be exactly
         // divided by any whole number other than itself
 
-        // Only checks for values > 1
+        // Values <= 1 are already non-prime numbers
         if (n <= 1) {
             return false;
         }
