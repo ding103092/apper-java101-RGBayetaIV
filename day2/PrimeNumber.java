@@ -4,7 +4,7 @@ public class PrimeNumber {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
 
-        // Prompt an interger from the user using myScanner
+        // Prompt an integer from the user using myScanner
         System.out.print("Enter the number: ");
         int num = myScanner.nextInt();
 
