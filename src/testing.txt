@@ -1,0 +1,5 @@
+Made this file to check if my intelliJ can be used to push to git.
+Haven't used this in a while, and it's more intuitive now for me,
+to use cmd.
+
+Just for review purposes.
