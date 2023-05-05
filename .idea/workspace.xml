@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Adding notes for Day 3">
-      <change afterPath="$PROJECT_DIR$/day3/CategoryEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day2/java-101-cycle3/src/gitpractice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day2/java-101-cycle3/src/gitpractice.txt" afterDir="false" />
+    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Added CategoryEnum, Act 1 for Day 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/CategoryEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/day3/CategoryEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683260817603</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Git rant in IntelliJ">
+      <created>1683260982535</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683260982535</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added CategoryEnum, Act 1 for Day 3">
+      <created>1683261258816</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683261258816</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +161,8 @@
     <MESSAGE value="Practicing git on IntelliJ" />
     <MESSAGE value="Added OddEven for HW3" />
     <MESSAGE value="Adding notes for Day 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding notes for Day 3" />
+    <MESSAGE value="Git rant in IntelliJ" />
+    <MESSAGE value="Added CategoryEnum, Act 1 for Day 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CategoryEnum, Act 1 for Day 3" />
   </component>
 </project>
