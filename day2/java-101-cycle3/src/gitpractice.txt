@@ -1,2 +1,6 @@
 Practicing git in IntelliJ. I find it hard to integrate it with
 cmd as there are folders that I have no control of such as .idea
+
+Encountered problems in git in IntelliJ.
+Sometimes, it cannot be find (not installed)
+But it is still installed T_T

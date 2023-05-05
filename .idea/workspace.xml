@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Added OddEven for HW3">
-      <change afterPath="$PROJECT_DIR$/day3/day3-scratch/DataTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day3/day3-scratch/SwitchStatements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apper-java101-RGBayetaIV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apper-java101-RGBayetaIV.iml" afterDir="false" />
+    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Adding notes for Day 3">
+      <change afterPath="$PROJECT_DIR$/day3/CategoryEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/java-101-cycle3/src/gitpractice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day2/java-101-cycle3/src/gitpractice.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683186000036</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding notes for Day 3">
+      <created>1683260817603</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683260817603</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +146,7 @@
     <MESSAGE value="Add notes related for Day 2" />
     <MESSAGE value="Practicing git on IntelliJ" />
     <MESSAGE value="Added OddEven for HW3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added OddEven for HW3" />
+    <MESSAGE value="Adding notes for Day 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding notes for Day 3" />
   </component>
 </project>
