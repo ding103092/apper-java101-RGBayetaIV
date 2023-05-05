@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Practicing git on IntelliJ">
-      <change afterPath="$PROJECT_DIR$/day3/OddEven.java" afterDir="false" />
+    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Added OddEven for HW3">
+      <change afterPath="$PROJECT_DIR$/day3/day3-scratch/DataTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/day3-scratch/SwitchStatements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apper-java101-RGBayetaIV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apper-java101-RGBayetaIV.iml" afterDir="false" />
     </list>
@@ -40,6 +41,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/reginald-g.bayeta/Documents/GitHub/apper-java101-RGBayetaIV/day2/java-101-cycle3&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -48,6 +50,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\reginald-g.bayeta\Documents\GitHub\apper-java101-RGBayetaIV\day2\java-101-cycle3\day3\day3-scratch" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\reginald-g.bayeta\AppData\Roaming\Subversion</configuration>
@@ -102,8 +112,26 @@
       <option name="project" value="LOCAL" />
       <updated>1683013499795</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added OddEven for HW3">
+      <created>1683186000036</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683186000036</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
@@ -112,6 +140,7 @@
     </ignored-roots>
     <MESSAGE value="Add notes related for Day 2" />
     <MESSAGE value="Practicing git on IntelliJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practicing git on IntelliJ" />
+    <MESSAGE value="Added OddEven for HW3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added OddEven for HW3" />
   </component>
 </project>
