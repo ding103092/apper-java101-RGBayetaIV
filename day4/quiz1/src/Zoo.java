@@ -40,10 +40,11 @@ public class Zoo {
         // Samples
         zoo.addAnimal(new Animal("Bob","dog","dogfood"));
         Animal myDog = zoo.animals.get(0);
+        System.out.println(zoo.animals.get(0).getSound());
         zoo.animals.get(0).chewFood();
 
         zoo.addVisitor(new Visitor("Ding",23));
-        System.out.println(zoo.visitors.get(0).getName());
+        System.out.println("Visitor: " + zoo.visitors.get(0).getName() + ", age: " + zoo.visitors.get(0).getAge());
 
         zoo.addEmployee(new Employee("Dong",21020));
         zoo.employees.get(0).feedAnimal(); // No assigned so error!
