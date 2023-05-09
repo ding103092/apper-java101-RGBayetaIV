@@ -26,7 +26,7 @@ public class Animal {
 
     // My interpretation of "produces own sound"
     public String getSound() {
-        switch (this.name) {
+        switch (this.type) {
             case "dog":
                 return "Woof";
             case "cat":
