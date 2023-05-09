@@ -18,7 +18,8 @@ public class Flight {
 
     // Methods
     public void addPassenger() {
-        if(this.seats != 0) {
+        // Previously !=0, but for best practice, should be >0
+        if(this.seats > 0) {
             this.passengers++;
             this.seats--;
             // The ultimate debugger

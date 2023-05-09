@@ -16,9 +16,14 @@ public class App {
 
         // Now set to 20
         manilaToBoracay.setNumberOfSeats(20);
+
+
         for(int i = 0; i<3; i++) {
             manilaToBoracay.addPassenger();
         }
+
+        // Try setting seat to less
+        manilaToBoracay.setNumberOfSeats(5);
 
         System.out.println("Current # of seats: " + manilaToBoracay.seats); // 7
         System.out.println("Current # of passengers: " + manilaToBoracay.passengers); // 13
