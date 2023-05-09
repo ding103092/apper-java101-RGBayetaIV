@@ -1,22 +1,21 @@
 package zoo.visitors;
 
-public class Visitor {
-    private String name;
-    private int age;
+import zoo.Person;
+
+public class Visitor extends Person {
 
     public Visitor(String name, int age) {
-        this.name = name;
-        this.age = age;
+        super(name, age);
     }
 
     // "Age is a secret (private) but it can be retrieved (using getter)
     public int getAge() {
-        return this.age;
+        return super.getAge();
     }
 
     // Let's do the same with name
     public String getName() {
-        return this.name;
+        return super.getName();
     }
 
 }

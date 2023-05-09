@@ -1,17 +1,17 @@
 package zoo.hr;
+import zoo.Person;
 import zoo.animals.Animal;
-public class Employee {
-    private String name;
+public class Employee extends Person {
     protected double salary;
     private Animal assignedAnimal;
 
-    public Employee(String name, double salary) {
-        this.name = name;
+    public Employee(String name, int age,double salary) {
+        super(name, age);
         this.salary = salary;
     }
 
     public String getName() {
-        return this.name;
+        return super.getName();
     }
 
     // Feed an animal assigned to him
@@ -20,7 +20,7 @@ public class Employee {
         // so own interpretation
         if(assignedAnimal != null)
         {
-            System.out.println("Employee " + name + " is now feeding " + assignedAnimal.getName() + " with " + assignedAnimal.getFood());
+            System.out.println("Employee " + super.getName() + " is now feeding " + assignedAnimal.getName() + " with " + assignedAnimal.getFood());
         }
         else {
             System.out.println("No assigned animal to feed.");

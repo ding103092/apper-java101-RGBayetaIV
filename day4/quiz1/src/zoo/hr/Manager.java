@@ -1,22 +1,21 @@
 package zoo.hr;
 
-public class Manager {
-    String name;
-    int age;
-    String title;
+import zoo.Person;
 
-    public Manager(String name, int age, String title) {
-        this.name = name;
-        this.age = age;
+public class Manager extends Person {
+    private String title;
+
+    public Manager(String name, int age,String title) {
+        super(name,age);
         this.title = title;
     }
 
     public String getName() {
-        return this.name;
+        return super.getName();
     }
 
     public int getAge() {
-        return this.age;
+        return super.getAge();
     }
 
     public String getTitle() {

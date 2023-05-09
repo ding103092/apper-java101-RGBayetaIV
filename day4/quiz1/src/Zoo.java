@@ -46,7 +46,7 @@ public class Zoo {
         zoo.addVisitor(new Visitor("Ding",23));
         System.out.println("Visitor: " + zoo.visitors.get(0).getName() + ", age: " + zoo.visitors.get(0).getAge());
 
-        zoo.addEmployee(new Employee("Dong",21020));
+        zoo.addEmployee(new Employee("Dong", 24,21020));
         zoo.employees.get(0).feedAnimal(); // No assigned so error!
         Employee temp = zoo.employees.get(0);
 
