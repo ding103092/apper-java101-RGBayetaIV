@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Added oop folder">
-      <change afterPath="$PROJECT_DIR$/day4/day4-scratch/src/flight/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/day4-scratch/src/flight/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Added day 4 scratch and activity">
       <change beforePath="$PROJECT_DIR$/apper-java101-RGBayetaIV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apper-java101-RGBayetaIV.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683266836297</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added day 4 scratch and activity">
+      <created>1683598864635</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683598864635</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +180,7 @@
     <MESSAGE value="Git rant in IntelliJ" />
     <MESSAGE value="Added CategoryEnum, Act 1 for Day 3" />
     <MESSAGE value="Added oop folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added oop folder" />
+    <MESSAGE value="Added day 4 scratch and activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added day 4 scratch and activity" />
   </component>
 </project>
