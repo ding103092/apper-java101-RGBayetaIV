@@ -20,7 +20,7 @@ public class Employee {
         // so own interpretation
         if(assignedAnimal != null)
         {
-            System.out.println("Employee " + name + " is now feeding " + assignedAnimal.getName() + "with " + assignedAnimal.getFood());
+            System.out.println("Employee " + name + " is now feeding " + assignedAnimal.getName() + " with " + assignedAnimal.getFood());
         }
         else {
             System.out.println("No assigned animal to feed.");
