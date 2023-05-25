@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Updated Zoo.java (app) for better demo">
-      <change afterPath="$PROJECT_DIR$/day4/quiz1/src/zoo/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/quiz1/src/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/day4/quiz1/src/Zoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/quiz1/src/zoo/hr/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/day4/quiz1/src/zoo/hr/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/quiz1/src/zoo/hr/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/day4/quiz1/src/zoo/hr/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/quiz1/src/zoo/visitors/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/day4/quiz1/src/zoo/visitors/Visitor.java" afterDir="false" />
+    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Simple edits to demo inheritance">
+      <change beforePath="$PROJECT_DIR$/finalproject/gcash/src/GCashApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalproject/gcash/src/GCashApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_directory_selection": "C:/Users/reginald-g.bayeta/Documents/Java101/apper-java101-RGBayetaIV/day3/oop/src",
-    "last_opened_file_path": "C:/Users/reginald-g.bayeta/Documents/Java101/apper-java101-RGBayetaIV",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/reginald-g.bayeta/Documents/Java101/apper-java101-RGBayetaIV/day3/oop/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/reginald-g.bayeta/Documents/Java101/apper-java101-RGBayetaIV&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\reginald-g.bayeta\Documents\Java101\apper-java101-RGBayetaIV\day4\quiz1\src\zoo" />
@@ -209,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683610464987</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Simple edits to demo inheritance">
+      <created>1683614775941</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1683614775941</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +244,7 @@
     <MESSAGE value="Update files for day4/quiz1" />
     <MESSAGE value="Fix display format for readability" />
     <MESSAGE value="Updated Zoo.java (app) for better demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Zoo.java (app) for better demo" />
+    <MESSAGE value="Simple edits to demo inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple edits to demo inheritance" />
   </component>
 </project>

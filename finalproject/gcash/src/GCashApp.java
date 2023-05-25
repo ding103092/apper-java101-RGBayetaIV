@@ -15,8 +15,8 @@ public class GCashApp {
     // Initialize variables
     private static GCashShareALoad GCashShareLoad = new GCashShareALoad();
     private static Scanner scanner = new Scanner(System.in);
-    private static int state = 1; // 1 for default, 2 for user page, 3 for admin
-    private static boolean inSession = true; // The app runs while session is active
+    private static int state = 1;
+    private static boolean inSession = true;
     private static String currentUser;
     public static void main(String[] args) {
         // Register initial users (non-negotiable requirement)
@@ -36,18 +36,15 @@ public class GCashApp {
                     choice = displayLandingPage();
                     switch (choice) {
                         case Const.REGISTER_USER -> {
-                            System.out.print("Enter your mobile number: ");
-                            String mobileNumber = scanner.next();
-                            System.out.print("Enter your name: ");
-                            String name = scanner.next();
+                            String mobileNumber = inputString("Enter your mobile number");
+                            String name = inputString("Enter your name");
                             if(GCashShareLoad.registerUser(mobileNumber.trim(), name, 100, UserRole.USER)) {
                                 currentUser = mobileNumber;
                                 state = Const.STATE_USER_PAGE;
                             }
                         }
                         case Const.LOGIN_USER -> {
-                            System.out.print("Enter your mobile number: ");
-                            String mobileNumber = scanner.next();
+                            String mobileNumber = inputString("Enter your mobile number");
                             if(GCashShareLoad.isRegistered(mobileNumber)) {
                                 currentUser = mobileNumber;
                                 state = switch(GCashShareLoad.findUserByMobileNumber(currentUser).get().getRole()) {
@@ -71,10 +68,8 @@ public class GCashApp {
                     choice = displayUserPage(GCashShareLoad.findUserByMobileNumber(currentUser).get().getName(),balance);
                     switch (choice) {
                         case Const.SHARE_LOAD -> {
-                            System.out.print("Enter your recipient's mobile number: ");
-                            String mobileNumber = scanner.next();
-                            System.out.print("Enter the amount to be sent: ");
-                            double amount = scanner.nextDouble();
+                            String mobileNumber = inputString("Enter your recipient's mobile number");
+                            double amount = inputAmount("Enter the amount to be sent");
                             GCashShareLoad.shareLoad(currentUser,mobileNumber.trim(), amount);
                         }
                         case Const.VIEW_MY_TRANSACTION_HISTORY -> {
@@ -116,7 +111,7 @@ public class GCashApp {
                 default -> System.out.println("Invalid choice. Please try again.");
             }
         }
-        
+
         // Close the scanner
         scanner.close();
     }
@@ -131,9 +126,7 @@ public class GCashApp {
      */
     private static void displayUserTransaction(List<Transaction> transaction, String name) {
         System.out.println("Displaying transaction for user " + name + "...");
-        for(Transaction history : transaction) {
-            System.out.println(history);
-        }
+        transaction.forEach(System.out::println);
     }
 
     /**
@@ -196,5 +189,45 @@ public class GCashApp {
             System.out.print("Please choose an action: ");
         }
         return scanner.nextInt();
+    }
+
+
+    /**
+     * @param msg The context to the action
+     * @return the amount to be sent to a user
+     */
+    private static double inputAmount(String msg) {
+        System.out.print(msg+": ");
+        while (!scanner.hasNextDouble()) {
+            System.out.println("Invalid input. Please enter a valid amount.");
+            scanner.next(); // Consume the invalid input
+            System.out.print(msg+": ");
+        }
+        return scanner.nextDouble();
+    }
+
+    /**
+     * An all-around function for getting String values
+     * @return A non empty string
+     */
+    private static String inputString(String msg) {
+        String input;
+        boolean init = true;
+        System.out.print(msg+": ");
+
+        do {
+            input = scanner.nextLine().trim();
+
+            if(input.isEmpty()) {
+                if (init) {
+                    init = false;
+                    continue;
+                }
+                System.out.println("Please enter a non-empty input. Try again.");
+                System.out.print(msg+": ");
+            }
+        } while (input.isEmpty());
+
+        return input;
     }
 }
