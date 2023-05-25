@@ -36,6 +36,7 @@ public class GCashApp {
                     choice = displayLandingPage();
                     switch (choice) {
                         case Const.REGISTER_USER -> {
+                            scanner.nextLine(); // Consumes any line before
                             String mobileNumber = inputString("Enter your mobile number");
                             String name = inputString("Enter your name");
                             if(GCashShareLoad.registerUser(mobileNumber.trim(), name, 100, UserRole.USER)) {
@@ -44,6 +45,7 @@ public class GCashApp {
                             }
                         }
                         case Const.LOGIN_USER -> {
+                            scanner.nextLine(); // Consumes any line before
                             String mobileNumber = inputString("Enter your mobile number");
                             if(GCashShareLoad.isRegistered(mobileNumber)) {
                                 currentUser = mobileNumber;
@@ -68,6 +70,7 @@ public class GCashApp {
                     choice = displayUserPage(GCashShareLoad.findUserByMobileNumber(currentUser).get().getName(),balance);
                     switch (choice) {
                         case Const.SHARE_LOAD -> {
+                            scanner.nextLine(); // Consumes any line before
                             String mobileNumber = inputString("Enter your recipient's mobile number");
                             double amount = inputAmount("Enter the amount to be sent");
                             GCashShareLoad.shareLoad(currentUser,mobileNumber.trim(), amount);
@@ -211,23 +214,18 @@ public class GCashApp {
      * @return A non empty string
      */
     private static String inputString(String msg) {
-        String input;
-        boolean init = true;
+        String input = "";
         System.out.print(msg+": ");
+        System.out.flush();
 
-        do {
+        while (input.isEmpty()) {
             input = scanner.nextLine().trim();
-
             if(input.isEmpty()) {
-                if (init) {
-                    init = false;
-                    continue;
-                }
                 System.out.println("Please enter a non-empty input. Try again.");
                 System.out.print(msg+": ");
+                System.out.flush();
             }
-        } while (input.isEmpty());
-
+        }
         return input;
     }
 }

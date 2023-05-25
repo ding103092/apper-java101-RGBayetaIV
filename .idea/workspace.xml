@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Simple edits to demo inheritance">
-      <change beforePath="$PROJECT_DIR$/finalproject/gcash/src/GCashApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalproject/gcash/src/GCashApp.java" afterDir="false" />
+    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Updated methods on getting user inputs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apper-java101-RGBayetaIV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apper-java101-RGBayetaIV.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683614775941</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Updated methods on getting user inputs">
+      <created>1685007121587</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1685007121587</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +253,7 @@
     <MESSAGE value="Fix display format for readability" />
     <MESSAGE value="Updated Zoo.java (app) for better demo" />
     <MESSAGE value="Simple edits to demo inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple edits to demo inheritance" />
+    <MESSAGE value="Updated methods on getting user inputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated methods on getting user inputs" />
   </component>
 </project>
