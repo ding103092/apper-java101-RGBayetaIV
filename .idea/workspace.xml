@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Updated methods on getting user inputs">
+    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Fixed bug on displaying err msg on non-empty strings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apper-java101-RGBayetaIV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apper-java101-RGBayetaIV.iml" afterDir="false" />
     </list>
@@ -22,6 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="C:\Users\reginald-g.bayeta\AppData\Local\Programs\Git\cmd\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -219,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685007121587</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Fixed bug on displaying err msg on non-empty strings">
+      <created>1685010213123</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1685010213123</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +262,7 @@
     <MESSAGE value="Updated Zoo.java (app) for better demo" />
     <MESSAGE value="Simple edits to demo inheritance" />
     <MESSAGE value="Updated methods on getting user inputs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated methods on getting user inputs" />
+    <MESSAGE value="Fixed bug on displaying err msg on non-empty strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug on displaying err msg on non-empty strings" />
   </component>
 </project>
