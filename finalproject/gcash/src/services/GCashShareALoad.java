@@ -94,6 +94,10 @@ public class GCashShareALoad {
                 throw new InsufficientBalanceException("Insufficient balance");
             }
 
+            if (amount < 0) {
+                throw new InvalidAmountException("Amount cannot be negative");
+            }
+
             // The actual transfer happens here
             sender.get().sendLoad(recipient.get(), amount);
             recipient.get().receiveLoad(sender.get(), amount);
@@ -106,7 +110,8 @@ public class GCashShareALoad {
                  | SenderMobileNumberNotRegisteredException
                  | RecipientMobileNumberNotRegisteredException
                  | InvalidShareALoadTransactionException
-                 | InsufficientBalanceException e) {
+                 | InsufficientBalanceException
+                 | InvalidAmountException e) {
             System.out.printf("%s: Failed to share load due to %s\n", e.getClass().getSimpleName(), e.getMessage());
         }
     }
@@ -203,5 +208,9 @@ public class GCashShareALoad {
         public InvalidUserFieldException(String message) {
             super(message);
         }
+    }
+
+    public static class InvalidAmountException extends Exception {
+        public InvalidAmountException(String message) { super(message); }
     }
 }
