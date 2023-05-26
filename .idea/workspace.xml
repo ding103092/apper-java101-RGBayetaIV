@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Fixed bug on displaying err msg on non-empty strings">
+    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Added Day 5 Scratch">
+      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/App5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/Cake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/ChocolateCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/VanillaCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/ForWaterOnly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/HasLegs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/NoLeg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apper-java101-RGBayetaIV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apper-java101-RGBayetaIV.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/day5-scratch/src/map/Day5Scratch.java" beforeDir="false" afterPath="$PROJECT_DIR$/day5/day5-scratch/src/map/Day5Scratch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/gcash/src/services/GCashShareALoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalproject/gcash/src/services/GCashShareALoad.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -227,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685010213123</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added Day 5 Scratch">
+      <created>1685067021062</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1685067021062</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +283,7 @@
     <MESSAGE value="Simple edits to demo inheritance" />
     <MESSAGE value="Updated methods on getting user inputs" />
     <MESSAGE value="Fixed bug on displaying err msg on non-empty strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug on displaying err msg on non-empty strings" />
+    <MESSAGE value="Added Day 5 Scratch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Day 5 Scratch" />
   </component>
 </project>
