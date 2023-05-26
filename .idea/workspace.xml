@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Added Day 5 Scratch">
-      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/App5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/Cake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/ChocolateCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/VanillaCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/ForWaterOnly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/HasLegs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/day5-scratch/src/itrface/NoLeg.java" afterDir="false" />
+    <list default="true" id="21c8fd6b-045d-478f-b0a4-b5a9663c8c88" name="Changes" comment="Fixed bug that accepts negative amount values">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/day5-scratch/src/map/Day5Scratch.java" beforeDir="false" afterPath="$PROJECT_DIR$/day5/day5-scratch/src/map/Day5Scratch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalproject/gcash/src/services/GCashShareALoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalproject/gcash/src/services/GCashShareALoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/gcash/src/GCashApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalproject/gcash/src/GCashApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685067021062</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added Day 5 Scratch">
+      <created>1685072969679</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1685072969679</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fixed bug that accepts negative amount values">
+      <created>1685073106477</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1685073106477</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,6 +286,7 @@
     <MESSAGE value="Updated methods on getting user inputs" />
     <MESSAGE value="Fixed bug on displaying err msg on non-empty strings" />
     <MESSAGE value="Added Day 5 Scratch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Day 5 Scratch" />
+    <MESSAGE value="Fixed bug that accepts negative amount values" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug that accepts negative amount values" />
   </component>
 </project>

@@ -8,7 +8,7 @@ import model.UserRole;
 
 /**
  * GCashApp is the main entry point of the application.
- * It initializes the GCashService and provides a text-based user interface for interaction.
+ * It initializes the GCashShareALoad and provides a text-based user interface for interaction.
  * Users can register, share load, and view their transaction history through this interface.
  */
 public class GCashApp {
@@ -25,6 +25,7 @@ public class GCashApp {
         GCashShareLoad.registerUser("09175861663", "Seth",100, UserRole.USER);
         GCashShareLoad.registerUser("09175861664", "Ryan",100, UserRole.USER);
         GCashShareLoad.registerUser("09175861665", "Fritz",100, UserRole.USER);
+        GCashShareLoad.registerUser("09196186582", "Dong",100, UserRole.USER);
         GCashShareLoad.registerUser("09999999999","ADMIN",100,UserRole.ADMIN);
 
         // Program proper
