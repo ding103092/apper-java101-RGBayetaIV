@@ -200,7 +200,7 @@ public class GCashShareALoad {
 
     public static class UserAlreadyRegisteredException extends Exception {
         public UserAlreadyRegisteredException(String message) {
-           super(message);
+            super(message);
         }
     }
 
